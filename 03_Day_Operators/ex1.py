@@ -1,10 +1,14 @@
-print('on' in 'Python' and 'on' in 'dragon')
+import math
 
-sent= 'I hope this course is not full of jargon'
-print('jargon' in sent)
+def q21():
+    years = int(input("Enter the number of years: "))
+    seconds = years * 365 * 24 * 60 * 60
+    print(f"{years} years is {seconds} seconds")
 
 
-lenght =len('python')
-lenght_float=float(lenght)
-lenght_str=str(lenght)
-print(lenght,lenght_float,lenght_str)
+def q23():
+    for i in range(1, 6):
+        print(i, 1, i, i**2, i**3)
+
+
+q23()
