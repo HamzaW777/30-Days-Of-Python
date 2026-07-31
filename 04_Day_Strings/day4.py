@@ -40,3 +40,27 @@ def q19():
     text ='coding for all'
     word = text.split()
     print(''.join([word[0] for word in word]))
+def q20():
+    text ="Coding for all"
+    print(text.index('C'))
+def q21():
+    text="for all people"
+    print(text.rfind('l'))
+def q23():
+    sent='You cannot end a sentence with because because because is a conjunction'
+    print(sent.rindex('because'))
+
+    start = sent.find('because because because')
+    end = start + len('because because because')
+
+    print(sent[start:end])           
+    print(sent.find('because'))      
+    print(sent[start:end]) 
+def q28():
+    text='Coding for all'
+    print(text.startswith('Coding'))
+    print(text.endswith('Coding'))
+def q31():
+    print('30DaysOfPython'.isidentifier())
+    print('thirty_days_of_python'.isidentifier())
+q31()
