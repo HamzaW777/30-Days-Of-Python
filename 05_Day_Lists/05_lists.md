@@ -560,7 +560,6 @@ To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _
     ```py
     front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     back_end = ['Node','Express', 'MongoDB']
-    ```
 
 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
 

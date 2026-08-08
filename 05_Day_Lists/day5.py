@@ -47,4 +47,17 @@ def q27():
     ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
     ages.sort()
     print(ages)
+    min_age=min(ages)
+    max_age=max(ages)
+    print(min_age)
+    print(max_age)
+    ages.append(min_age)
+    ages.append(max_age)
+    print(ages)
+    median_age=ages[len(ages)//2]
+    print(median_age)
+    average_age=sum(ages)/len(ages)
+    print(average_age)
+    age_range=max_age-min_age
+    print(age_range)
 q27()
