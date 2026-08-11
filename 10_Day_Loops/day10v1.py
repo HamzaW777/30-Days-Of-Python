@@ -40,6 +40,5 @@ def q7():
       else:
             total_odds = total_odds+ numbers
             print('The sum of all odd numbers is', total_odds)
-      
 q7()
     
