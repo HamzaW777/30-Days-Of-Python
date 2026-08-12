@@ -64,7 +64,7 @@ def seven_rand():
         number=random.randint(0,9)
         array.append(number)
     return array
-print(seven_rand())
+#print(seven_rand())
 
 
 
