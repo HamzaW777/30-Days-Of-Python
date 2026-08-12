@@ -129,5 +129,5 @@ def same_type(x):
          return "not same type"
       else:
          return"same type"
-print(same_type(['banana',2])) 
+#print(same_type(['banana',2])) 
       
