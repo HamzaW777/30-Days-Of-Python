@@ -289,7 +289,7 @@ print(rgb_color_gen())
 1. Write a function generate_colors which can generate any number of hexa or rgb colors.
 
 ```py
-   generate_colors('hexa', 3) # ['#a3e12f','#03ed55','#eb3d2b'] 
+   generate_colors('hexa', 3) # ['#a3e12f','#0df35e','#eb3d2b'] 
    generate_colors('hexa', 1) # ['#b334ef']
    generate_colors('rgb', 3)  # ['rgb(5, 55, 175','rgb(50, 105, 100','rgb(15, 26, 80'] 
    generate_colors('rgb', 1)  # ['rgb(33,79, 176)']
