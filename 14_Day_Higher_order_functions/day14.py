@@ -37,13 +37,14 @@ def check2(x):
 new_cou=(filter(check2,countries))
 #print(list(new_cou))
 def check3(x):
-        entry=countries[0]
+        
         if  x[0]=='E':
             return True
         else :
             return False
 new_cou=(filter(check3,countries))
-print(list(new_cou))
+#print(list(new_cou))
+
 
 
 
